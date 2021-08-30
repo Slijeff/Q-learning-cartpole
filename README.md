@@ -16,8 +16,10 @@ Both of them incorporates reinforcement learning theory to the structure. Instea
 
 ### Demonstration:
 ![Single network trained around 150 episodes](https://media.giphy.com/media/6kIuZ8Mjnb4o2i7ro8/source.gif?cid=790b7611ccbcbe855f1511b0fcc7ba7e3fe8f5fc4d301cd0&rid=source.gif&ct=g)
+
 *Single network trained around 150 episodes*
 
 ![Double network trained around 200 episodes](https://media.giphy.com/media/R30MAxt76V7cHCFona/source.gif?cid=790b761155f7a6263af6b86d24f3dff38dc5b56e57c7e702&rid=source.gif&ct=g)
+
 *Double network trained around 200 episodes*
 
