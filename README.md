@@ -1,8 +1,8 @@
 # Q-learning-cartpole
 
-### Training a acrtpole to balance itself in OpenAI's Gym environment using two approaches:
-1. The first approach involves using only one neural net that is both used for predicting the target value and prediction value
-2. The second approach uses two networks in which one predicts the target and the second  one predicts next move
+### Training a acrtpole to balance itself in [OpenAI's Gym](http://gym.openai.com/) environment using two approaches:
+1. The first approach involves using only one neural net that is both used for predicting the target value and prediction value (*created without machine learning library*)
+2. The second approach uses two networks in which one predicts the target and the second  one predicts next move (*created using tensorflow for simplicity*)
 
 Both of them incorporates reinforcement learning theory to the structure. Instead of traditional Q-learning that uses a Q-table to map state and action to Q value, a deep Q-network will be used to map state to Q value and action at the same time.
 
