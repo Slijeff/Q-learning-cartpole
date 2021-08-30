@@ -11,7 +11,7 @@ Both of them incorporates reinforcement learning theory to the structure. Instea
 1. Initialize weights in the network
 2. Choose an action by forward propagation (prediction)
 3. Choose an action (target)
-4. Update the network's output using the Bellman equation
+4. Update the network's output using the Bellman equation ![](https://miro.medium.com/max/700/1*CLBIXdpk8ft0-1MFH8FwUg.png)
 5. Retrain network by backward propagation
 
 ### Demonstration:
