@@ -1,6 +1,6 @@
 # Q-learning-cartpole
 
-### Training a acrtpole to balance itself in [OpenAI's Gym](http://gym.openai.com/) environment using two approaches:
+### Training a cartpole to balance itself in [OpenAI's Gym](http://gym.openai.com/) environment using two approaches:
 1. The first approach involves using only one neural net that is both used for predicting the target value and prediction value (*created without machine learning library*)
 2. The second approach uses two networks in which one predicts the target and the second  one predicts next move (*created using tensorflow for simplicity*)
 
