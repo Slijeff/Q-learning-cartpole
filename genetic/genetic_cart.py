@@ -7,11 +7,11 @@ import numpy as np
 import pygad.torchga as ga
 from nn import Network
 
-INPUT_DIM = 2
-OUTPUT_DIM = 3
+INPUT_DIM = 4
+OUTPUT_DIM = 2
 EPOCH = 2000
 POP_SIZE = 20
-MUTATION_RATE = 0.75
+MUTATION_RATE = 0.2
 GOAL_REWARD = 100
 MODEL_NAME = 'model.pt'
 
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     )
     env = gym.make('CartPole-v2')
     # env = gym.make('MountainCar-v0')
-    
+
     sum_reward = 0
     f,s = 0,0
     for i in range(EPOCH):
